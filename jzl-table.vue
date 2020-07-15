@@ -27,6 +27,7 @@
           :fixed="item.fixed||false"
           :align="item.align||align"
           :reserve-selection="item.reserveSelection||false"
+          :selectable="item.selectable||null"
           :width="item.width||55"
           :minWidth="item.minWidth|| 'auto'"
           :label="item.label"
